@@ -11,7 +11,7 @@ function countDown() {
     var counterBack = setInterval(function () {
         
         i--;
-        const progresswidth = i / 10 * 100;
+         progresswidth = i / 10 * 100;
 
         if (i > 0) {
            progressBar.style.width = progresswidth + '%';
@@ -29,7 +29,7 @@ function countDown() {
 
     }, "100");
 
-    function progressBar() {
+    function progressColor() {
         if (progresswidth > 60) {
             progressBar.style.backgroundColor = "#76ed63";
 
