@@ -1,0 +1,44 @@
+
+
+body{
+    background-color: #846bca;
+    font-size: 28px;
+    color: white;
+}
+.container{
+    margin: 10%;
+    text-align: center;
+
+}
+h1{
+    text-align: center;
+    margin-bottom: 80px;
+}
+#progress-container{
+    width: 90%;
+    margin: auto;
+    height: 32px;
+    background-color: #cacaca;
+}
+#progressBar{
+    height: 100%;
+    text-align: right;
+    line-height: 32px;
+    width: 100;
+    background-color: #ed6c63;
+    box-sizing: border-box;
+}
+#start{
+    text-align: center;
+    margin: 40px auto;
+    padding: 10px 20px;
+    font-size: 24px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #39aa1d;
+    color: white;
+}
+#start:hover{
+    background-color: #5cca40;
+    cursor: pointer;
+}
